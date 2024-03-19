@@ -6,6 +6,10 @@
     .about-containers{
         flex-wrap: wrap;
     }
+    #contact,
+    #projects{
+        height: fit-content;
+    }
 }
 
 @media screen and (max-width:1200px){
@@ -18,13 +22,15 @@
     #experience, .experience-details-container{
         margin-top: 2rem;
     }
-    #profile, .section-container{
+    #profile, 
+    .section-container{
         display: block;
     }
     .arrow{
         display: none;
     }
-    section, .section-container{
+    section, 
+    .section-container{
         height: fit-content;
     }
     section{
@@ -42,7 +48,8 @@
 
 
 @media screen and (max-width: 600px){
-    #contact, footer{
+    #contact, 
+    footer{
         height: 40vh;
     }
     #profile{
